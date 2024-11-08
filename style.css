@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color:#35424a;
+    color: lightyellow;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1 {
+    text-shadow: 2px 2px #7b436f;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 50px;
+}
+nav a {
+    text-decoration: none;
+    color: lightyellow;
+    font-weight: bold;
+}
+nav a:hover{
+    color:  #7b436f;
+}
+.food {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+   
+}
+.a {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(221, 178, 123);
+    color: black;
+    text-align: start;
+    object-position:100px;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s; 
+ 
+}
+.a:hover {
+    transform: scale(1.05); 
+}
+footer {
+    background-color: #35424a;
+    color: lightyellow;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%; 
+    margin-bottom: auto;
+    margin-top: 0px;
+}
+.order-button {
+    margin-top: 20px;
+    padding: 15px 30px; 
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: background-color 0.3s;
+    
+}
+.order-button:hover {
+    background-color: darkgreen; 
+    color: white; 
+}
